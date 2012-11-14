@@ -37,6 +37,10 @@ Not currently.
 
 == Changelog ==
 
+= 0.2 =
+* Added Screenshots
+* Added URL's for plugin to wordpress readme
+
 = 0.1 =
 * Added readme.txt to conform to wordpress.org standards
 
@@ -44,6 +48,9 @@ Not currently.
 * was born
 
 == Upgrade notice ==
+
+= 0.2 =
+This update is not necessary for performance and only adds screenshots and plugin URLs to the Wordpress.org site
 
 = 0.1 =
 This update adds some things to better comply with wordpress standards.
