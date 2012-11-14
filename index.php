@@ -1,12 +1,12 @@
 <?php
 /*
 Plugin Name: Wordpress Tornado Warnings
-Plugin URI: http://URI_Of_Page_Describing_Plugin_and_Updates
+Plugin URI: http://warningweather.com
 Description: Displays a list of Tornado Warnings from the National Weather Service in Twitter
-Version: 0.1
+Version: 0.2
 Author: Zesty Labs LLC
-Author URI: http://URI_Of_The_Plugin_Author
-License: A "Slug" license name e.g. GPL2
+Author URI: http://warningweather.com
+License: GPL2
 */
 
 
