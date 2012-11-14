@@ -31,6 +31,8 @@ Not currently.
 
 == Screenshots ==
 
+1. screenshot1.jpg
+2. screenshot2.jpg
 
 
 == Changelog ==
