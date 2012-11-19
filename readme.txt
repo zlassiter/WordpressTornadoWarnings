@@ -1,10 +1,10 @@
 === Wordpress Tornado Warnings ===
 Contributors: ZestyLabs
-Donate link: 
-Tags: weather, tornado, tornado warning, national weather service
+Donate link: http://warningweather.com/blog/donate/
+Tags: weather, tornado, tornado warning, national weather service, widget, weather warnings
 Requires at least: 3.0
 Tested up to: 3.4.2
-Stable tag: 0.2
+Stable tag: 0.24
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -12,9 +12,11 @@ Displays tornado warnings from the National Weather Service on your wordpress bl
 
 == Description ==
 
-This plugin displays tornado warnings in the United States on your wordpress blog. 
+This plugin displays tornado warnings in the United States on your wordpress blog.  You can see a working example of this widget in action at <http://warningweather.com/blog>
 
-Note: This plugin makes calls to a remote server to gather the latest tornado warning data.
+= Note =
+
+This plugin makes calls to a remote server to gather the latest tornado warning data.
 
 == Installation ==
 
@@ -31,11 +33,18 @@ Not currently.
 
 == Screenshots ==
 
-1. screenshot1.jpg
-2. screenshot2.jpg
+1. The Widget As It Appears in A Wordpress Blog
+2. The Widget in the Widgets Menu
 
 
 == Changelog ==
+= 0.24 =
+* Additions for the Wordpress.org Plugin Directory
+* Added a working site that you can look at
+* Added a donate link
+
+= 0.23 = 
+* Small Bug Fixes
 
 = 0.2 =
 * Added Screenshots
@@ -48,6 +57,11 @@ Not currently.
 * was born
 
 == Upgrade notice ==
+= 0.24 = 
+Documentation and Wordpress.org updates
+
+= 0.23 =
+This update fixes some bugs.
 
 = 0.2 =
 This update is not necessary for performance and only adds screenshots and plugin URLs to the Wordpress.org site

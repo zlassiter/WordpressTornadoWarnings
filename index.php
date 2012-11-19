@@ -3,7 +3,7 @@
 Plugin Name: Wordpress Tornado Warnings
 Plugin URI: http://warningweather.com
 Description: Displays a list of Tornado Warnings from the National Weather Service in Twitter
-Version: 0.2
+Version: 0.24
 Author: Zesty Labs LLC
 Author URI: http://warningweather.com
 License: GPL2
