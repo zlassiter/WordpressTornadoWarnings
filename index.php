@@ -31,9 +31,26 @@ class WP_Tornado_Warning_Widget extends WP_Widget {
 		echo $after_widget;
 	}
 }
+
+class WP_Mesodiscussions_Widget extends WP_Widget {
+	function WP_Mesodiscussions_Widget() {
+		$widget_ops = array('classname' => 'widget_mesodiscussions', 'description' => 'Active Mesodiscussions in this widget.' );
+		$this->WP_Widget('mesodiscussions', 'Mesodiscussions', $widget_ops);
+	}
+	function widget($args, $instance) {
+		extract($args, EXTR_SKIP);
+		echo $before_widget;
+		echo $before_title . "Mesodiscussions" . $after_title;
+		$wptornwarn_warnings = file_get_contents('http://www.mesodiscussion.com/wpmeso.php');
+		echo $wptornwarn_warnings;
+		echo $after_widget;
+	}
+}
+
 add_action('widgets_init', 'register_wp_tornado_warnings_widget');
 function register_wp_tornado_warnings_widget() {
     register_widget('WP_Tornado_Warning_Widget');
+	register_widget('WP_Mesodiscussions_Widget');
 }
 
 ?>
