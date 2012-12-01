@@ -4,19 +4,19 @@ Donate link: http://warningweather.com/blog/donate/
 Tags: weather, tornado, tornado warning, national weather service, widget, weather warnings
 Requires at least: 3.0
 Tested up to: 3.4.2
-Stable tag: 0.24
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Displays tornado warnings from the National Weather Service on your wordpress blog.
+Displays tornado warnings and mesodiscussions from the National Weather Service on your wordpress blog.
 
 == Description ==
 
-This plugin displays tornado warnings in the United States on your wordpress blog.  You can see a working example of this widget in action at <http://warningweather.com/blog>
+This plugin displays tornado warnings and mesodiscussions in the United States on your wordpress blog.  You can see a working example of this widget in action at <http://warningweather.com/blog>.
 
 = Note =
 
-This plugin makes calls to a remote server to gather the latest tornado warning data.
+This plugin makes calls to a remote server to gather the latest tornado warning data and mesodiscussions.
 
 == Installation ==
 
@@ -24,7 +24,9 @@ This plugin makes calls to a remote server to gather the latest tornado warning 
 
 2. Activate Plugin
 
-3. Put the tornado warnings widget where you want the tornado warnings to display
+3. Put the tornado warnings widget where you want the tornado warnings to display on your wordpress site
+
+4. Place the mesodiscussion widget where you want mesodiscussions to display on your Wordpress site
 
 == Frequently asked questions ==
 
@@ -38,6 +40,9 @@ Not currently.
 
 
 == Changelog ==
+= 0.3 = 
+* Added support to display mesodiscussions
+
 = 0.24 =
 * Additions for the Wordpress.org Plugin Directory
 * Added a working site that you can look at
@@ -57,6 +62,9 @@ Not currently.
 * was born
 
 == Upgrade notice ==
+= 0.3 = 
+Added new features to display mesodiscussions in a new widget.
+
 = 0.24 = 
 Documentation and Wordpress.org updates
 
