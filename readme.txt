@@ -37,6 +37,7 @@ Not currently.
 
 1. The Widget As It Appears in A Wordpress Blog
 2. The Widget in the Widgets Menu
+3. A list of tornado warnings on a widget on a site.
 
 
 == Changelog ==
