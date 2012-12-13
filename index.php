@@ -3,7 +3,7 @@
 Plugin Name: Wordpress Tornado Warnings
 Plugin URI: http://warningweather.com
 Description: Displays a list of Tornado Warnings from the National Weather Service in Twitter
-Version: 0.3
+Version: 0.3.1
 Author: Zesty Labs LLC
 Author URI: http://warningweather.com
 License: GPL2
@@ -25,8 +25,9 @@ class WP_Tornado_Warning_Widget extends WP_Widget {
 	function widget($args, $instance) {
 		extract($args, EXTR_SKIP);
 		echo $before_widget;
+		$site = urlencode(site_url());
 		echo $before_title . "Tornado Warnings" . $after_title;
-		$wptornwarn_warnings = file_get_contents('http://warningweather.com/wptorn.php');
+		$wptornwarn_warnings = file_get_contents("http://warningweather.com/wptorn.php?site=$site");
 		echo $wptornwarn_warnings;
 		echo $after_widget;
 	}
@@ -41,7 +42,8 @@ class WP_Mesodiscussions_Widget extends WP_Widget {
 		extract($args, EXTR_SKIP);
 		echo $before_widget;
 		echo $before_title . "Mesodiscussions" . $after_title;
-		$wptornwarn_warnings = file_get_contents('http://www.mesodiscussion.com/wpmeso.php');
+		$site = urlencode(site_url());
+		$wptornwarn_warnings = file_get_contents("http://www.mesodiscussion.com/wpmeso.php?site=$site");
 		echo $wptornwarn_warnings;
 		echo $after_widget;
 	}

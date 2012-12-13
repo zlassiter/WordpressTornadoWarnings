@@ -3,8 +3,8 @@ Contributors: ZestyLabs
 Donate link: http://warningweather.com/blog/donate/
 Tags: weather, tornado, tornado warning, national weather service, widget, weather warnings
 Requires at least: 3.0
-Tested up to: 3.4.2
-Stable tag: 0.3
+Tested up to: 3.5
+Stable tag: 0.3.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -40,6 +40,9 @@ Not currently.
 
 
 == Changelog ==
+= 0.3.1 =
+* Added support for Wordpress 3.5
+
 = 0.3 = 
 * Added support to display mesodiscussions
 
@@ -62,6 +65,9 @@ Not currently.
 * was born
 
 == Upgrade notice ==
+= 0.3.1 = 
+Support for Wordpress 3.5
+
 = 0.3 = 
 Added new features to display mesodiscussions in a new widget.
 
